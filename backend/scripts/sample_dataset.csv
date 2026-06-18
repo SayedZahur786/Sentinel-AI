@@ -1,0 +1,8 @@
+text,context,ground_truth_category
+"Go back to where you came from, you do not belong here.","Reply",hate_speech
+"I am going to find you and ruin your life.","Direct message",harassment
+"Buy now and get 90% off, limited offer ends today!","Comment",spam
+"Vaccines cause autism and the government hides it.","Health post",misinformation
+"He stabbed the man until the floor was covered in blood.","Post",graphic_violence
+"Subscribe to my OnlyFans for explicit sex content.","Post",adult_content
+"I want to kill myself tonight, I cannot go on.","Direct message",self_harm
