@@ -123,7 +123,9 @@ category applies, return low scores for all and an empty trigger_segment."""
         }
         async with httpx.AsyncClient(timeout=45) as client:
             response = await client.post(
-                url, params={"key": self.settings.gemini_api_key}, json=request
+                url,
+                headers={"x-goog-api-key": self.settings.gemini_api_key},
+                json=request,
             )
             response.raise_for_status()
             raw = response.json()
